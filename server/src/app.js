@@ -21,6 +21,3 @@ app.get('/', (req, res) => {
 });
 
 module.exports = app;
-
-'C:\Users\hamar\Desktop\nasa-express\server\public\index.html'
-'C:\Users\hamar\Desktop\nasa-express\server\public \index.html'
