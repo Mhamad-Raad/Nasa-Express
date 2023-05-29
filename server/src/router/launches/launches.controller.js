@@ -1,7 +1,7 @@
-const { launches } = require('../../model/launches.model');
+const { getAllLaunchesData } = require('../../model/launches.model');
 
 const getAllLaunches = (req, res) => {
-  return res.json([...launches.values()]);
+  return res.json(getAllLaunchesData);
 };
 
 module.exports = { getAllLaunches };

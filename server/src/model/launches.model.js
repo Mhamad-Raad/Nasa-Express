@@ -12,6 +12,10 @@ const launch = {
 
 launches.set(100, launch);
 
+function getAllLaunchesData() {
+  return Array.from(launches.values());
+}
+
 module.exports = {
-  launches,
+  getAllLaunchesData,
 };
