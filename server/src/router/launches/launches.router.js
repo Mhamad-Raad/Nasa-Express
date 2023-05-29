@@ -1,9 +1,13 @@
 const express = require('express');
 
-const lunchesRouter = express.Router();
+const launchesRouter = express.Router();
 
 const { getAllLaunches } = require('./launches.controller');
 
-lunchesRouter.get('/', getAllLaunches);
+// launchesRouter.uses((req, res, next) => {
+//   console.log(`url: ${req.}`)
+// });
 
-module.exports = lunchesRouter;
+launchesRouter.get('/', getAllLaunches);
+
+module.exports = launchesRouter;
