@@ -1,5 +1,5 @@
-const lunches = new Map();
-const lunch = {
+const launches = new Map();
+const launch = {
   flightNumber: 100,
   mission: 'Kempler Exploration X',
   rocket: 'Explorer IS1',
@@ -10,8 +10,8 @@ const lunch = {
   success: true,
 };
 
-lunches.set(100, lunch);
+launches.set(100, launch);
 
 module.exports = {
-  lunches,
+  launches,
 };

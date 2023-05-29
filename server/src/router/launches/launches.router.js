@@ -2,8 +2,8 @@ const express = require('express');
 
 const lunchesRouter = express.Router();
 
-const { getAllLunches } = require('./lunches.controller');
+const { getAllLaunches } = require('./launches.controller');
 
-lunchesRouter.get('/', getAllLunches);
+lunchesRouter.get('/', getAllLaunches);
 
 module.exports = lunchesRouter;
