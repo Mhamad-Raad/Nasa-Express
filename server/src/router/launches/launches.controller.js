@@ -23,4 +23,4 @@ const httpAddNewLaunch = (req, res) => {
   return res.status(201).json(launch);
 }
 
-module.exports = { getAllLaunches };
+module.exports = { getAllLaunches, httpAddNewLaunch };
